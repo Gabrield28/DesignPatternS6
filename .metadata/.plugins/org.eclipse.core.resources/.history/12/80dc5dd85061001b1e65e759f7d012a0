@@ -1,0 +1,22 @@
+package Q1;
+
+public class ListeLivreDetail extends Livre {
+
+	public ListeLivreDetail(String titre, String auteur, String editeur, int annee, String resume, String isbn) {
+		super(titre, auteur, editeur, annee, resume, isbn);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+    public void afficher() {
+		System.out.println("Titre     : " + this.titre);
+		System.out.println("Auteur(s) : " + this.auteur);
+		System.out.println("Annee     : " + this.annee);
+		System.out.println("Editeur   : " + this.editeur);
+		System.out.println("ISBN      : " + this.isbn);
+		System.out.println("Résumé    : "); 
+		System.out.println(	this.resume);
+		System.out.println("----------------------------------------");
+
+	}
+}
