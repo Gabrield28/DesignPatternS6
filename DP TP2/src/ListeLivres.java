@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ListeLivres {
+public class ListeLivres implements Subject{
 
 	private ArrayList<Livre> liste;
 
@@ -33,5 +33,22 @@ public class ListeLivres {
 		}
 	}
 
+	@Override
+	public void Add(Observer o) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Remove(Observer o) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Notify() {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

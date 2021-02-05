@@ -1,0 +1,7 @@
+
+public interface Subject implement Observer{
+
+	void Add(Observer o);
+	void Remove(Observer o);
+	void Notify();
+}

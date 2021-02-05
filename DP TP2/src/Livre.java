@@ -15,12 +15,12 @@
  */
 public class Livre {
 
-    private String titre;
-    private String auteur;
-    private String editeur;
-    private int annee;
-    private String resume;
-    private String isbn;
+	protected String titre;
+	protected String auteur;
+	protected String editeur;
+	protected int annee;
+	protected String resume;
+	protected String isbn;
     
     /**
      * Création d'un livre d'après ses attributs
