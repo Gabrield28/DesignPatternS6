@@ -30,13 +30,13 @@ public class CSudokuGridSaver {
 			bufferedWriter.write("   <lines>\n");
 			for (int l=0; l<9; l++) {
 				bufferedWriter.write("      <line index=\""+(l+1)+"\">\n");
-					bufferedWriter.write("         <cols>\n");
-					for (int c=0; c<9; c++) {
-						bufferedWriter.write("            <column index=\""+(c+1)+"\">");
-						bufferedWriter.write( String.valueOf(grille[c][l]) );
-						bufferedWriter.write("</column>\n");
-					}				
-					bufferedWriter.write("         </cols>\n");
+				bufferedWriter.write("         <cols>\n");
+				for (int c=0; c<9; c++) {
+					bufferedWriter.write("            <column index=\""+(c+1)+"\">");
+					bufferedWriter.write( String.valueOf(grille[c][l]) );
+					bufferedWriter.write("</column>\n");
+				}				
+				bufferedWriter.write("         </cols>\n");
 				bufferedWriter.write("      </line>\n");				
 			}
 			bufferedWriter.write("   </lines>\n");
