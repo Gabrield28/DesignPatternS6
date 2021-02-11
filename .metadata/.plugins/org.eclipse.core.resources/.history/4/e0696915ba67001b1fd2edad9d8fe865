@@ -1,9 +1,6 @@
-import java.util.List;
 
 public interface Subject {
 
-	
-	//List<Observer> observer;
 	void Add(Observer o);
 	void Remove(Observer o);
 	void Notify();

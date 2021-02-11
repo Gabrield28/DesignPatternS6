@@ -1,5 +1,5 @@
 
 public interface Observer {
 
-	void update(Subject s);
+	void update(Object o);
 }

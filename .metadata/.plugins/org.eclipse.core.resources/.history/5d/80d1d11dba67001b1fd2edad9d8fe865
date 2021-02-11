@@ -1,9 +1,8 @@
-import java.util.List;
+import com.sun.tools.javac.util.List;
 
 public interface Subject {
 
-	
-	//List<Observer> observer;
+	List<Observer> obs;
 	void Add(Observer o);
 	void Remove(Observer o);
 	void Notify();

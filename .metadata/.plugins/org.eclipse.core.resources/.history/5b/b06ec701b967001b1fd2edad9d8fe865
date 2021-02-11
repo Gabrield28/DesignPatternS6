@@ -31,7 +31,7 @@ public class ListeLivreDetail extends Livre implements Observer {
 	}
 
 	@Override
-	public void update(Subject s) {
+	public void update(Object o) {
 		// TODO Auto-generated method stub
 		
 	}
